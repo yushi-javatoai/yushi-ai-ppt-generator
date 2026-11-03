@@ -1,0 +1,10 @@
+---
+description: 当前开发环境按 Ubuntu Linux 理解与操作
+alwaysApply: true
+---
+
+# 运行环境
+
+- 当前机器环境按 **Ubuntu 22.04 LTS（Linux x86_64）** 理解与操作。
+- Shell、路径、包管理、权限与命令默认按 Linux/bash 习惯，不要按 Windows（cmd/PowerShell）或 macOS 特有路径假设。
+- 给出命令或脚本时优先使用 Linux 可用写法；若需跨平台，需单独说明并先与用户确认。

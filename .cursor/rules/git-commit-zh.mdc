@@ -1,0 +1,18 @@
+---
+description: Git 提交说明必须使用中文
+alwaysApply: true
+---
+
+# Git 提交规范
+
+- `git commit` 的 message **必须使用中文**。
+- 说明「为什么改」为主，辅以「改了什么」；1～2 句即可。
+- 示例：
+
+```text
+修复导出 PPT 时页面顺序错乱的问题
+
+补充中文注释并同步更新 log.md
+```
+
+- 未获用户明确要求时，不要主动创建 commit。

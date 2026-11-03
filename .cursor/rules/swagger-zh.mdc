@@ -1,0 +1,17 @@
+---
+description: Swagger/OpenAPI 文档需含中文说明
+globs: "**/*{swagger,openapi,Swagger,OpenAPI}*.{ts,js,json,yml,yaml}"
+alwaysApply: false
+---
+
+# Swagger 中文说明
+
+- Swagger / OpenAPI 相关定义须包含**中文**说明，便于前后端与联调阅读。
+- 至少覆盖：接口摘要（summary）、详细说明（description）、主要字段/参数含义、重要错误码含义。
+- 新增或改动接口时同步补全/更新中文注解，不要只留英文或空描述。
+
+```typescript
+// ✅ 示例方向（按项目实际 Swagger 库调整）
+@ApiOperation({ summary: '创建演示文稿', description: '根据主题生成 PPT 大纲与幻灯片结构' })
+@ApiProperty({ description: '演示文稿标题' })
+```
